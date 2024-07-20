@@ -35,6 +35,8 @@ function handleKeyPress(event) {
       case "ArrowLeft":
         dir = "left";
         break;
+      default:
+        break;
     }
   }
 }
@@ -157,9 +159,9 @@ function resetGame() {
   updateHighScore();
   stopGame();
   snake = [{ x: 10, y: 10 }];
-  dir = "right";
-  food = generateFood();
-  gamespeed_delay = 200;
+  // dir = "right";
+  // food = generateFood();
+  // gamespeed_delay = 200;
   updateScore();
 }
 

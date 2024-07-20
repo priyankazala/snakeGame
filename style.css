@@ -16,7 +16,6 @@ body,
 }
 
 .snake {
-  display: inline-block;
   border: solid 3px #000000;
 }
 
